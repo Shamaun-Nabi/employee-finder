@@ -1,0 +1,9 @@
+.logo {
+  width: 120px;
+  height: 120px;
+}
+.active {
+  font-weight: bolder;
+  color: coral !important;
+  transition: ease-in;
+}
