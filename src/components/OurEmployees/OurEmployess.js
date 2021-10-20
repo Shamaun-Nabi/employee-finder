@@ -37,7 +37,9 @@ const OurEmployess = () => {
                 <td>{employee.name}</td>
                 <td>{employee.designation}</td>
                 <td>
-                  <NavLink className="btn btn-warning" to="" >Details</NavLink>
+                  <NavLink className="" to={`/employees/${employee.id}`}>
+                    Details
+                  </NavLink>
                 </td>
               </tr>
             ))}

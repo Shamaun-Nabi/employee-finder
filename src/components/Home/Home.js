@@ -1,12 +1,11 @@
 import React from "react";
-import background from "./Home.css";
 
 
 const Home = () => {
   return (
     <div className="homeBG">
       <div className="container">
-      
+      <h3>Go to Employee page</h3>
       </div>
     </div>
   );
